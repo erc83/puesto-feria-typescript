@@ -1,12 +1,15 @@
-import React from 'react';
+
 import './App.css';
+import Home from './container/home/Home'
 
 function App() {
   return (
-    <div className="App">
-      <button className='btn btn-primary'>Button</button>
+    <div className="App container">
+      <Home />
     </div>
   );
 }
+
+
 
 export default App;
