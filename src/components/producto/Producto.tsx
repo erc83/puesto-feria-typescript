@@ -1,13 +1,14 @@
 import styles from './producto.module.css'
+import {ProductoProps} from '../../models/models'
 
-interface ProductoProps {
-    id: number,
-    nombre:string,
-    precio: number,
-    cantidad: number,
-    unidad: string,
-    imagen: string
-}
+// interface ProductoProps {
+//     id: number,
+//     nombre:string,
+//     precio: number,
+//     cantidad: number,
+//     unidad: string,
+//     imagen: string
+// }
 
 const Producto = ({id, nombre, precio, cantidad, unidad, imagen}: ProductoProps) => {
     return(
