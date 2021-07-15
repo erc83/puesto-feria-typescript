@@ -1,5 +1,8 @@
 import styles from './home.module.css'
 import Productos from "../../components/productos/Productos"
+import stock1 from "../../data/stockSucursal1.json"
+import stock2 from "../../data/stockSucursal2.json"
+import stock3 from "../../data/stockSucursal3.json"
 
 const Home = () => {
     return(
@@ -7,8 +10,14 @@ const Home = () => {
         <div>
             <h1 className={styles.titulo}>Bienvenido a mi puesto de Feria </h1>
         </div>
-        <h4>Productos enviados utilizando Producto y stock desde Productos</h4>
-            <Productos />
+        <h4>Productos en stock sucursal 1</h4>
+        <Productos productos = {stock1}/>
+
+        <h4>Productos en stock sucursal 2</h4>
+        <Productos productos = {stock2}/>
+
+        <h4>Productos en stock sucursal 3</h4>
+        <Productos productos = {stock3}/>
         </>
     )
 }

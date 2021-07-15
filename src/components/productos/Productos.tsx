@@ -1,11 +1,24 @@
 import Producto from '../producto/Producto'
-import stock from '../../data/Stock.json'
+// import stock from '../../data/stockSucursal1.json'
 
-const Productos = () => {
+interface ProductoProps {
+    id: number,
+    nombre:string,
+    precio: number,
+    cantidad: number,
+    unidad: string,
+    imagen: string
+}
+
+interface ProductosProps{
+    productos: ProductoProps[]
+}
+
+const Productos = ({productos}: ProductosProps) => {
     return (   
         <div className="card-group">
                 {
-                    stock.map((producto, index) => 
+                    productos.map((producto, index) => 
                     <Producto
                     key={index}
                     id={producto.id}
@@ -14,7 +27,6 @@ const Productos = () => {
                     cantidad={producto.cantidad}
                     unidad={producto.unidad}
                     imagen={producto.imagen}
-                    
                     />  )
                 }
         </div>

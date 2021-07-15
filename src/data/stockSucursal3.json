@@ -1,24 +1,24 @@
 [
     {
-        "id":1,
-        "nombre":"Uva",
-        "precio":1000,
+        "id": 1,
+        "nombre":"Uva 3",
+        "precio":5000,
         "cantidad":20,
         "unidad": "kg",
 		"imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt-rAbbBpqCPf5x4vXt4m1jb_3rCXKm6RbAhUcK5in0S1gqF2UdrRrZCaDnj7tOmyEyfM&usqp=CAU"
     },
     {
         "id": 2,
-        "nombre":"Manzana Verde",
-        "precio":700,
+        "nombre":"Manzana Verde 3",
+        "precio":3500,
         "cantidad":20,
         "unidad": "kg",
 		"imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdvEO6UbmmxVC01nZYP0qGs2lxlQLc6hFr2vGls8ElMSjnnKgwr6xWJOSII_d0Os5sFN8&usqp=CAU"
     },
     {
         "id": 3,
-        "nombre":"Manzana Roja",
-        "precio":600,
+        "nombre":"Manzana Roja 3",
+        "precio": 2000,
         "cantidad":50,
         "unidad": "kg",
 		"imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1lFobSdFRoyHUUNpylPtyvWGm83NcPHRrbw&usqp=CAU"
